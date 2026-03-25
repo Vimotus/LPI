@@ -5,11 +5,15 @@ A PyTorch-based framework for layer-wise interpretation and explanation of deep 
 ## Project Structure
 
 LPI/ 
-##└── LPI_model/ 
-##├── layer_wise_prediction_DNN.py # Layer-wise prediction for Deep Neural Networks 
-##├── layer_wise_prediction_Resnet.py # Layer-wise prediction for ResNet architectures 
-##├── layer_wise_prediction_VGG.py # Layer-wise prediction for VGG architectures 
-##└── layer_wise_prediction_Transformer.py # Layer-wise prediction for Vision Transformers
+└── LPI_model/ 
+
+├── layer_wise_prediction_DNN.py # Layer-wise prediction for Deep Neural Networks 
+
+├── layer_wise_prediction_Resnet.py # Layer-wise prediction for ResNet architectures 
+
+├── layer_wise_prediction_VGG.py # Layer-wise prediction for VGG architectures 
+
+└── layer_wise_prediction_Transformer.py # Layer-wise prediction for Vision Transformers
 
 This project provides a unified framework for interpreting deep learning models at different layers. The core idea is to:
 
